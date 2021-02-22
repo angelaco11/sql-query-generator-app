@@ -1,0 +1,41 @@
+
+.buttonContainer {
+  margin-left: 28%;
+}
+
+.searchIcon {
+  position: absolute;
+  cursor: pointer;
+  pointer-events: none;
+  margin-top: 1.5em;
+  margin-left: .8em;
+  z-index: 2;
+  color: #fff;
+}
+
+.searchButton {
+  margin-top: 1em;
+  background-color: #41b0e4;
+  color: #fff;
+  border: none;
+  padding: 8px 35px;
+  text-decoration: none;
+  cursor: pointer;
+  font-family: inherit;
+  border-radius: 0.25em;
+  position: absolute;
+}
+
+.resetButton {
+  margin: 130px;
+  margin-top: 1em;
+  background-color: #a6bed1;
+  color: #fff;
+  border: none;
+  padding: 8px 25px;
+  text-align: center;
+  text-decoration: none;
+  font-family: inherit;
+  border-radius: 0.25em;
+  position: absolute;
+}

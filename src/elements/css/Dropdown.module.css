@@ -1,0 +1,23 @@
+.select {
+  appearance: none;
+  margin: 0;
+  width: 100%;
+  font-size: inherit;
+  font-family: inherit;
+  border: 1px solid rgb(125, 160, 192);
+  border-radius: 0.25em;
+  padding: 0.25em 0.5em;
+  cursor: pointer;
+}
+
+.chevron {
+  cursor: pointer;
+  pointer-events: none;
+  font-size: 12px;
+  margin-left: -1.5em;
+}
+  
+.selectContainer {
+  flex: 1 2 35%;
+  margin: 5px;
+}

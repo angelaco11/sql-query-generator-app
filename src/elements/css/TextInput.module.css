@@ -1,0 +1,34 @@
+.textInput {
+  appearance: none;
+  margin: 0;
+  width: 100%;
+  font-family: inherit;
+  font-size: inherit;
+  min-width: 10ch;
+  max-width: 25ch;
+  border: 1px solid rgb(135, 174, 211);
+  border-radius: 0.25em;
+  padding: 0.25em 0.5em;
+  cursor: text;
+  flex: 2 5 40%;
+  margin: 0 5px 0 5px;
+
+}
+
+*::-webkit-input-placeholder {
+    font-style: italic;
+}
+*:-moz-placeholder {
+    font-style: italic;
+}
+*::-moz-placeholder {
+    font-style: italic;
+}
+*:-ms-input-placeholder {
+    font-style: italic;
+}
+
+.betweenContainer {
+  display: flex;
+  justify-content: space-evenly;
+}

@@ -1,0 +1,29 @@
+.deleteIcon {
+  cursor: pointer;
+  margin: 10px;
+}
+
+.rowContainer {
+  border: 1px solid rgb(135, 174, 211);
+  border-radius: 0.25em;
+  opacity: .7;
+  width: 38%;
+  height: 45px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  align-items: center;
+  margin-left: 28%;
+  margin-bottom: .5em;
+  background-color: #fff;
+  padding: 10px;
+}
+
+.is {
+  border: 1px solid rgb(135, 174, 211);
+  border-radius: 0.25em;
+  padding: 0.25em 0.5em;
+  font-size: 1rem;
+  background-color: rgb(211, 223, 235);
+  margin: 5px;
+}
